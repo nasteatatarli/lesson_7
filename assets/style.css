@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px 0 0;
+  background-image: url(../assets/images/leaf.jpg);
+  background-size: cover;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  margin: 20px auto 30px;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #929090;
+  width: 33.33%;
+  height: 50px;
+  color: rgb(175, 168, 159);
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+caption {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(179, 173, 165);
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-1 {
+  width: 40%;
+}
+
+.w-28 {
+  width: 28%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 28%;
+}
+
+.content {
+  max-width: 1280px;
+  min-height: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 5px 240px 5px;
+  background-color: #24362e;
+}
+
+.menu {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu a {
+  position: relative;
+  display: block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: rgb(212, 207, 207);
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.5s;
+  overflow: hidden;
+  font-weight: 600;
+}
