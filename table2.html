@@ -9,7 +9,43 @@
 </head>
 
 <body>
+  <div class="container">
+    <div class="content">
+      <div class="menu">
+        <a href="index.html">Главная</a>
+      </div>
+      <table class="w-90">
+        <caption>Таблица#2</caption>
+        <tr>
+          <td class="w-1" colspan="2">1-2</td>
+          <td class="w-60">3</td>
+        </tr>
+        <tr>
+          <td class="w-28">4</td>
+          <td colspan="2" rowspan="2">
+            <table class="w-80">
+              <caption>Вложенная таблица</caption>
+              <tr>
+                <td>1</td>
+                <td rowspan="3">2-5-8</td>
+                <td rowspan="2" class="h-200">3-6</td>
+              </tr>
+              <tr>
+                <td rowspan="2" class="h-200">4-7</td>
+              </tr>
+              <tr>
+                <td>9</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="w-28">7</td>
+        </tr>
 
+      </table>
+    </div>
+  </div>
 </body>
 
 </html>
